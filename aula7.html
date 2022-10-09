@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade prática - tabela</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!--
+        1º Passo: Logo abaixo do fechamento da última tag div criada com a lista de serviços inclua uma div com o id=”tabela”
+        2º Passo: Dentro da div crie a tabela com uma borda de 1, cellspacing de 2, altura de 150 e largura de 300
+        3º Passo: Vamos criar dentro da tag table a tag caption, que inclui um cabeçalho a tabela. O conteúdo será de nossos clientes.
+        4º Passo: Logo abaixo do caption, vamos criar o cabeçalho da nossa tabela com a tag thead. Não esqueça de fechar a tag
+        5º Passo: Dentro do thead criaremos uma linha com 3 colunas. O conteúdo das colunas será respectivamente Empresa, País e Estado
+        6º Passo: Abaixo do fechamento da tag thead criaremos o corpo da tabela com a tag tbody.  Não esqueça de fechar a tag
+        7º Passo: Dentro do tbody criaremos uma linha com 3 colunas. O conteúdo das colunas será respectivamente HLJS, Alemanha e Akhein, TE
+        8º Passo: Criaremos  mais uma linha dentro do tbody com 2 colunas. Sendo a segunda coluna com colspan=2. O conteúdo das colunas será respectivamente Umbrela e EUA. Essa é a nossa última linha do tbody
+        9 º Passo: Iremos agora criar o rodapé. Para isso crie a tag tfoot logo abaixo do fechamento do tbody
+        10º Passo: Iremos criar mais uma linha dentro do tfoot com 2 colunas. Sendo a segunda coluna com colspan=2. O conteúdo das colunas será respectivamente Nome e Endereço.
+    -->
+
+    <div id="tabela"></div>
+    <table borde="1" cellspacing="2" height="150" width="300"> </table>
+    <caption>Nossos clientes</caption>
+    <thead>
+        <tr>
+
+            <th>Empresa</th>
+
+            <th>País</th>
+
+            <th>Estado</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+
+            <td>HLJS</td>
+
+            <td>Alemanha</td>
+
+            <td>Akhein, TE</td>
+
+        </tr>
+        <tr>
+
+            <td>Umbrela</td>
+
+            <td colspan="2">EUA</td>
+
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+
+            <td>Nome</td>
+
+            <td colspan="2">Endereço</td>
+
+        </tr>
+    </tfoot>
+
+    <a href="index.html">
+    <h2>Voltar para o sumário da aula Elementos Básicos do HTML</h2>
+    </a>
+        
+</body>
